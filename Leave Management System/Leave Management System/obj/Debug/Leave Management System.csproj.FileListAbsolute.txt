@@ -1,0 +1,14 @@
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\bin\Debug\Leave Management System.exe.config
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\bin\Debug\Leave Management System.exe
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\bin\Debug\Leave Management System.pdb
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\obj\Debug\Leave Management System.csproj.AssemblyReference.cache
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\obj\Debug\Leave_Management_System.Form1.resources
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\obj\Debug\Leave_Management_System.Properties.Resources.resources
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\obj\Debug\Leave Management System.csproj.GenerateResource.cache
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\obj\Debug\Leave Management System.csproj.CoreCompileInputs.cache
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\obj\Debug\Leave Management System.exe
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\obj\Debug\Leave Management System.pdb
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\bin\Debug\Guna.UI2.dll
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\obj\Debug\Leave_Management_System.Employee.resources
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\obj\Debug\Leave Management System.csproj.CopyComplete
+C:\Users\flyin\OneDrive\Desktop\project\Leave Management System\Leave Management System\obj\Debug\Leave_Management_System.Caterogies.resources

@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>convert</title>
+    </head>
+    <body>
+        <input type="text" id="strr">
+        <button onclick="uppercase()">Uppercase</button>
+        <button onclick="lowercase()">Lowercase</button>
+
+        <script>
+            function uppercase()
+            {
+                var n= document.getElementById("strr").value;
+                var ans=n.toUpperCase();
+                window.alert(ans);
+            }
+            function lowercase()
+            {
+                var n= document.getElementById("strr").value;
+                var ans=n.toLowerCase();
+                window.alert(ans);
+            }
+        </script>
+    </body>
+</html>

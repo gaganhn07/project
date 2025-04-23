@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>time</title>
+    </head>
+    <body>
+        <script>
+           var mydate=new Date();
+           var myday=mydate.getDay();
+           var weekday=['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+           document.write("TODAY IS :"+weekday[myday]);
+           var hours=mydate.getHours();
+           var ampm=hours>12 ? 'PM' : 'AM';
+           var minutes=mydate.getMinutes();
+           var sec=mydate.getMilliseconds();
+           document.write("<br>");
+           document.write("CURRENT TIME IS :"+ hours +" : "+ ampm + " : " + minutes + " : " +sec);
+        </script>
+    </body>
+</html>

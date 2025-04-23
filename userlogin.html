@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Login / Sign Up Form</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/efb8da428e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="login" action="userlogin.php" method="post">
+            <h1 class="form__title"><i class="fa-regular fa-user"> &nbsp;</i>USER LOGIN &nbsp;<i class="fa-solid fa-right-to-bracket"></i></h1>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="User Email" name="uemail">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Password" name="upassword">
+                <div class="form__input-error-message"></div>
+            </div>
+            <button class="form__button" name="btnlogin" type="submit">Continue</button>
+            <p class="form__text">
+                <a href="#" class="form__link">Forgot your password?</a><br><br>
+
+				<a class="form__link" href="log.html" id="linkCreateAccount">Don't have an account? Create account</a>
+                <br><br><a class="form__link" href="dash.html" id=""><i class="fa-solid fa-backward">&nbsp;</i>Go Back</a>
+            </p>
+        </form>
+        <!--  -->
+    </div>
+</body>

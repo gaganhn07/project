@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>go3</title>
+    </head>
+    <body><center>
+        <h1>To find greatest of three number</h1><br>
+        <label>Enter first number</label><br>
+        <input type="number" id="num1"><br>
+        <label>Enter second number</label><br>
+        <input type="number" id="num2"><br>
+        <label>Enter third number</label><br>
+        <input type="number" id="num3"><br>
+        <button onclick="great()">FIND</button><br>
+        <script>
+            function great()
+            {
+                var n1=document.getElementById("num1").value;
+                var n2=document.getElementById("num2").value;
+                var n3=document.getElementById("num3").value;
+                var ans=Math.max(n1,n2,n3);
+                window.alert(ans +"is greater number.");
+            }
+        </script>
+    </body></html></center></html>
+</html>

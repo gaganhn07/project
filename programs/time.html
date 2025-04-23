@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            Time
+        </title>
+    </head>
+    <body ><center>
+        <h1>DISPLAYING DATE AND TIME</h1>
+        <h2><script>
+            var myDate=new Date();
+            var myDay=myDate.getDay();
+            var Weekday=['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+            document.write("Today is:"+Weekday[myDay]); 
+            var hours=myDate.getHours();
+            var ampm= hours>=12 ? "PM":"AM";
+            hours = hours % 12;
+            hours =hours > 12 ? hours:12;
+            var minutes=myDate.getMinutes();
+            var sec=myDate.getSeconds();
+            var mytime=hours+""+ampm+":"+minutes+"Min"+":"+sec+"Sec";
+            document.write("<br/>");
+            document.write("TIME :"+mytime);     
+        </script></h2>
+    </body></center>
+</html>

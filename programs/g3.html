@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Maths</title>
+    </head>
+    <body>
+        Enter first number :<input type="number" id="a"><br>
+        Enter second number :<input type="number" id="b"><br>
+        Enter third number :<input type="number" id="c"><br>
+        <button onclick="res()">OK</button><br>
+        <script>
+            function res()
+            {
+               var n1= document.getElementById("a").value;
+               var n2=document.getElementById("b").value;
+               var n3=document.getElementById("c").value;
+               var result= Math.max(n1,n2,n3);
+               window.alert(result +" is largest");
+
+            }
+        </script>
+    </body>
+</html>

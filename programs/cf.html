@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>C&F</title>
+    </head>
+    <body bgcolor="yellow"><center>
+        <label>Enter fahrenheit or celsius</label><br><br>
+        <input type="number" id="num"><br><br>
+        <button onclick="feh()">Fehrenheit</button>
+        <button onclick="cel()">Celsius</button>
+        <script>
+            function feh()
+            {
+                var n=document.getElementById("num").value;
+                var ans=(n*1.8)+32;
+                window.alert(ans +"  : fehrenheit");
+            }
+            function cel()
+            {
+                var n=document.getElementById("num").value;
+                var ans=(n-32)/1.8;
+                window.alert(ans + "  : celsius");
+            }
+        </script>
+    </body></center>
+</html>

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>n number</title>
+    </head>
+    <body>
+        <script>
+            function generateRandomNumbers(n) {
+  let randomNumbers = [];
+  for (let i = 0; i < n; i++) {
+    let randomNumber = Math.floor(Math.random() * 100);
+    randomNumbers.push(randomNumber);
+  }
+  return randomNumbers;
+}
+
+let n = 10;
+let randomNumbersArray = generateRandomNumbers(n);
+console.log(`Generated ${n} random numbers: ${randomNumbersArray}`);
+
+        </script>
+    </body>
+</html>
